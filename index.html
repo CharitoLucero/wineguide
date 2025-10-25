@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wine_Guide</title>
 
      <!-- Css -->   
     <link rel="stylesheet" href="wine.css">
@@ -16,70 +16,227 @@
 
 </head>
 <body class="comic-relief-regular">
+    <!-- Encabezado -->
+     <header>
+        <nav>
+            <!-- Logo -->
+  
+            <div id="logo" class="actor-regular">
+              <i class=""></i>
+               <a href="/" class="logo-text"><span>Wine Guide</span></a>
+            </div>
+  
+            <!-- Hipervinculo menu -->
+            <ul class="links">
+             
+              <li><a href="">
+                  <i class=""></i>
+                  </a>
+              </li>
+              
+              <li><a href="">
+                <i class=""></i>
+                </a></li>
+
+              <li><a href="" class="cotact">
+                  <i class=""></i>
+                  </a>
+              </li>
+  
+  
+            </ul>
+  
+  
+           </nav>
+     </header>
     
         <h2 class="comic-relief-bold">GUIA PRACTICA DE LOS VARIETALES MAS CONOCIDOS</h2>
+
+<main>
  
- 
+        <div>
+            <h3 class="comic-relief-bold">VINOS TINTOS</h3>
+         </div>
   
-    <div class="cards">
+        <div class="cards">
            <div class="card">
-                <h3>MALBEC</h3>
+                <h4>MALBEC</h4>
                 <p><a href=""></a><br>
                 <a href=""></a></p>
                 <img src="./imag/malbec.jpg" alt="">
            </div>
 
            <div class="card">
-                <h3>CABERNET SAUVIGNON</h3>
+                <h4>CABERNET SAUVIGNON</h4>
                 <p><a href=""></a><br>
                 </p>
                 <img src="./imag/cabernet.jpg" alt="">
            </div>
 
            <div class="card">
-                <h3>PINOT NOIR</h3>
+                <h4>PINOT NOIR</h4>
                 <p><a href=""></a><br>
                 <a href=""></a><a href=""></a></p>
                 <img src="./imag/pinot-noir.jpg" alt="">
             </div>
 
             <div class="card">
-                <h3>BONARDA</h3>
+                <h4>BONARDA</h4>
                 <p><a href=""></a><br>
                 <a href=""></a><a href=""></a></p>
                  <img src="./imag/Bonarda.jpg" alt="">
             </div>
+        </div>  
+
+
+
+
+        <div>
+             <h3 class="comic-relief-bold">VINOS BLANCOS</h3>
+        </div>
+
+        <div class="cards">
 
             <div class="card">
-                <h3>CHENIN</h3>
-                <p><a href=""></a> o <a href=""></a><br>
+                <h4>CHENIN</h4>
+                <p><a href=""></a><a href=""></a><br>
                 <a href=""></a></p>
                 <img src="./imag/chenin.jpg" alt="">
             </div>
 
             <div class="card">
-                <h3>SAUVIGNON BLANC</h3>
+                <h4>SAUVIGNON BLANC</h4>
                 <p><a href=""></a><br>
                 <a href=""></a></p>
                 <img src="./imag/sauvignon.jpg" alt="">
             </div>
 
             <div class="card">
-                <h3>TORRONTES</h3>
+                <h4>TORRONTES</h4>
                 <p><a href=""></a><br>
                 <a href=""></a>
                 <img src="./imag/torrontes2.jpg" alt=""></p>
             </div>
 
             <div class="card">
-                <h3>CHARDONAY</h3>
+                <h4>CHARDONAY</h4>
                 <p><a href=""></a><br>
                 <a href=""></a>
                 <img src="./imag/chardonnay2.jpg" alt=""></p>
             </div>
 
-     </div>
+         </div>
+
+        <section>
+                 <h2>Ponete en Contacto</h2>
+
+                 <br>
+
+                 <form action="" method="get">
+                  <!-- <img src="/img/logo/1.jpg" alt="" class="contac"> -->
+                  <br>
+                  
+                  <br>
+                 <!-- <fieldset> -->
+                    <!-- <legend>Completa tus datos</legend> -->
+
+                    <!-- Nombre -->
+                    <div class="form-contac">
+                        <!-- <label for="nombre">Nombre </label> -->
+                        <input type="text" class= "form-contac-imput" id="name" name="name" placeholder="Nombre" required class="item">   
+                    </div>
+                     <div class="error" id="error-name"></div>
+                    <br>
+
+                    <!-- Apellido -->
+                    <div class="form-contac">
+                        <!-- <label for="apellido">Apellido</label> -->
+                        <input type="text" class= "form-contac-imput" id="lastname" name="lastname" placeholder="Apellido"
+                        required class="item">
+                    </div>
+                    <div class="error" id="error-lastname"></div>
+                    <br>
+
+                    <!-- Email -->
+                    <div class="form-contac">
+                        <!-- <label for=""></label> -->
+                        <input type="email" class= "form-contac-imput" id="mail" name="mail" placeholder="Email" required class="item">
+                    </div>
+                    <div class="error" id="error-mail"></div>
+                    <br>
+
+                    <!-- Telefono -->
+                    <div class="form-contac">
+                        
+                        <!-- <label for=""></label> -->
+                        <input type="number" class= "form-contac-imput" id="phone" name="phone" placeholder="Telefono" required class="item">
+                    </div>
+                    <div class="error" id="error-phone"></div>
+                    <br>
+                    
+
+                    <!-- Eleccion de Servicio -->
+                    <!-- <div class="form-contac">
+                        <!-- <h6>Que servicio estas buscando?</h6> -->
+                        <!-- <select name="select" id="select" class="item"> -->
+                           
+                            <!-- <option value="">Elija una opcion</option> -->
+                            <!-- <option value="syh"></option> -->
+                            <!-- <option value="fei"></option> -->
+                            <!-- <option value="seg"></option> -->
+                        <!-- </select> -->
+                    <!-- </div> -->
+                    <!-- <div class="error" id="error-select"></div> --> 
+                     <!-- <br> -->
+
+                     <!-- Comentarios -->
+                    <div class="form-contac">
+                        <textarea name="coment" id="coment" placeholder="Dejanos tu comentario"></textarea>
+                    </div>
+                    <div class="error" id="error-coment"></div>
+                    <br>
+
+                     <!-- Terminos y Condiciones -->
+                      <div class="form-term">
+                        <input type="checkbox" name="" id="term" required>
+                        <label for="">Acepto Terminos y Condiciones</label>
+                      </div>
+
+                    <br>
+                    <br>
+
+                     <!-- Botones Enviar y Borrar -->
+                    <div class="form-contac">
+                      
+                      <!-- <input type="submit" value="Enviar">
+                      <input type="reset" value="Borrar"> -->
+
+                      <button type="submit" class="form-contac-button">Enviar</button>
+                      <button type="reset" class="form-contac-button">Borrar</button>
+
+                    </div>
 
 
+
+                <!-- </fieldset> -->
+
+
+
+
+
+
+              </form>
+     
+        </section>
+  </main>
+
+  <footer id="footer">
+       
+        <a href="" class="comic-relief-regular">Terminos y condiciones</a>
+        <a href="" class="comic-relief-regular">Preguntas Frecentes</a>
+        <a href="" class="comic-relief-regular">Ayuda</a>
+
+
+  </footer>
 </body>
 </html>

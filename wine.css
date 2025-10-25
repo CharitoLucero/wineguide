@@ -16,6 +16,67 @@ body {
       font-weight: bold;
     }
 
+
+
+
+    h3{
+      text-align: center;
+      padding: 1rem;
+      
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    textarea{
+    height: 150px;
+    width: 1200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    }
+
+    #footer a {
+      cursor: pointer;
+      font-size: 14px;
+      padding-left: 30px;
+      text-decoration: none;
+      color: #68c6ad;
+    }
+
+
+    #footer a:hover{
+     text-decoration: underline;
+     color: #0662a9;
+   }
+
+   #footer{
+     display: flex;
+     align-items:last center;
+     justify-content: center;
+     height: 100px;
+     width: 100%;
+   }  
+
+
+
+
+
+
+
+
+
+
+
+
     .cards {
       display: flex;
       flex-wrap: wrap;
@@ -41,7 +102,7 @@ body {
       transform: scale(1.03);
     }
 
-    .card h3 {
+    .card h4 {
       margin-top: 0;
       font-size: 1.2rem;
       color: #68c6ad;
@@ -61,6 +122,60 @@ body {
     .card a:hover {
       text-decoration: underline;
     }
+
+
+    .form-contac {
+
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+      display: flex;
+      
+
+    }
+
+    .form-contac:hover{ 
+      box-shadow:#68c6ad;
+      transform: scale(1.03);
+
+    }
+
+    .form-contac-imput{
+      width: 1200px;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding: 10px;
+      font-size: 16px;
+      font-family: "Comic Relief", system-ui;
+      color: #68c6ad;
+    }
+
+   .form-term{
+      background: #fffce9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Comic Relief", system-ui;
+   }
+
+   .form-contac-button {
+    
+    justify-content: center;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin: 0 auto;
+  }
+
+
+  .form-contac-button:hover {
+    box-shadow: 3px 0px 30px #68c6ad;
+    background-color: #68c6ad;}
+
 
 
     @media (max-width: 600px) {
