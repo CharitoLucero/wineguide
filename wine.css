@@ -1,0 +1,70 @@
+
+body {
+      /* font-family: 'Comic Neue', cursive; */
+      font-family: "Comic Relief", system-ui;
+      margin: 0;
+      padding: 0;
+      background: #fffce9;
+      color: #333;
+    }
+
+    h2 {
+      text-align: center;
+      background-color:#a9ddbf;
+      padding: 1rem;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 1rem;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #68c6ad;
+      
+    }
+
+    .card p, .card a {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .card a {
+      color: #0662a9;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+
+
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+      }
+    }
