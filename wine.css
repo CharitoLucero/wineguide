@@ -1,7 +1,6 @@
 
 body {
-      /* font-family: 'Comic Neue', cursive; */
-      font-family: "Comic Relief", system-ui;
+      font-family: "Karla", sans-serif;
       margin: 0;
       padding: 0;
       background: #fffce9;
@@ -80,7 +79,6 @@ body {
     .links a{
       color: #325105;
       text-decoration: none;
-      /* padding: 10px 15px; */
       font-size: 1.3rem;
       line-height: 1.4;
      }
@@ -174,7 +172,7 @@ body {
       background: transparent;
       padding: 10px;
       font-size: 16px;
-      font-family: "Comic Relief", system-ui;
+      
       color: #c1d005;
     }
 
@@ -183,7 +181,7 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Comic Relief", system-ui;
+      
    }
 
    .form-contac-button {
@@ -206,8 +204,8 @@ body {
 
 
     @media (max-width: 600px) {
-      
-      form{
+
+      textarea{
         width: 90%;
       }
 
@@ -215,6 +213,10 @@ body {
         flex-direction: column;
       }
       .card {
+        width: 90%;
+      }
+
+      .form-contac-imput{
         width: 90%;
       }
 
