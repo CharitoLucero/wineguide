@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine Guide</title>
-
+    
      <!-- Css -->   
     <link rel="stylesheet" href="wine.css">
 
@@ -13,37 +12,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
         <!-- <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"> -->
+ 
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/c3e2e6ff32.js" crossorigin="anonymous"></script>
+
+    
+    <title>Wine Guide</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./imag/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./imag/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imag/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./imag/favicon-16x16.png">
 
 </head>
 <body class="comic-relief-regular">
     <!-- Encabezado -->
-     <header>
+     <header class="banner">
         <nav>
             <!-- Logo -->
   
-            <div id="logo" class="actor-regular">
-              <i class=""></i>
-               <a href="/" class="logo-text"><span>Wine Guide</span></a>
+            <div id="logo" class="">
+                
+               <a href="/" class="logo comic-relief-bold">
+                 <i class="fa-solid fa-wine-bottle"></i>
+                 <i class="fa-solid fa-grapes"></i>
+                <span>Wine Guide</span>
+               </a>
+
             </div>
   
             <!-- Hipervinculo menu -->
             <ul class="links">
              
-              <li><a href="">
-                  <i class=""></i>
+              <li><a href="#recommended">
+                  <i class="fa-solid fa-wine-glass"></i>
+                   Recomendados
                   </a>
               </li>
               
-              <li><a href="">
-                <i class=""></i>
-                </a></li>
-
-              <li><a href="" class="cotact">
-                  <i class=""></i>
-                  </a>
+              <li><a href="#form">
+                <i class="fa-solid fa-circle-user"></i>
+                 Contacto
+                </a>
               </li>
-  
-  
             </ul>
   
   
@@ -56,7 +68,7 @@
  
         <div>
             <h3 class="comic-relief-bold">VARIETALES TINTOS</h3>
-         </div>
+        </div>
   
         <div class="cards">
            <div class="card">
@@ -74,7 +86,7 @@
                     <br>
                     Acompaña muy bien a comidas con carnes rojas y quesos fuertes.
                 </p>
-                <img src="./imag/cabernet1.jpg" alt="">
+                <img src="./imag/cabernet.jpg" alt="">
            </div>
 
            <div class="card">
@@ -94,7 +106,7 @@
                     <br>
                     Presenta notas de ciruelas, cerezas y moras. Esideal para acompañar reuniones informales.
                 </p>
-                 <img src="./imag/Bonarda.jpg" alt="">
+                 <img src="./imag/bonarda.jpg" alt="">
             </div>
         </div>  
 
@@ -147,12 +159,41 @@
 
          </div>
 
+         <h2 class="comic-relief-bold" id="recommended">RECOMENDADOS</h2>
+         <section>
+            <div class="cards">
+
+                <div class="card">
+                    <img src="./imag/botella_malbec.jpg" alt="">
+                    <h4>Malbec Organico Santa Julia</h4>
+                    <p>Precio: $7.700</p>
+                </div>
+
+                <div class="card">
+                    <img src="./imag/botella_torrontes.png" alt="">
+                    <h4>Torrontes Roble Los Gigantes</h4>
+                    <p>Precio: $10.200</p>
+                </div>
+                <div class="card">
+                    <img src="./imag/botella_sauvignon.jpg" alt="">
+                    <h4>Sauvignon Blanc Pascual Toso</h4>
+                    <p>Precio: $7.500</p>
+                </div>
+                <div class="card">
+                    <img src="/imag/botella_bonarda.png" alt="">
+                    <h4>Bonarda Los Haroldos</h4>
+                    <p>Precio: $6.200</p>
+                </div>
+
+            </div>
+         </section>
+
         <section>
                  <h2>Ponete en Contacto</h2>
 
                  <br>
 
-                 <form action="" method="get">
+                 <form id="form" method="get">
                   <!-- <img src="/img/logo/1.jpg" alt="" class="contac"> -->
                   <br>
                   

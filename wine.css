@@ -10,7 +10,8 @@ body {
 
     h2 {
       text-align: center;
-      background-color:#a9ddbf;
+      background-color:#325105;
+      color: #fff;
       padding: 1rem;
       margin: 0;
       font-weight: bold;
@@ -49,13 +50,13 @@ body {
       font-size: 14px;
       padding-left: 30px;
       text-decoration: none;
-      color: #68c6ad;
+      color: #c1d005;
     }
 
 
     #footer a:hover{
       text-decoration: underline;
-      color: #0662a9;
+      color: #325105;
    }
 
    #footer{
@@ -68,13 +69,33 @@ body {
 
 
 
+    .banner {
+      background-image: url(./imag/banner.jpg);
+      height: 850px;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
 
+    .links a{
+      color: #325105;
+      text-decoration: none;
+      /* padding: 10px 15px; */
+      font-size: 1.3rem;
+      line-height: 1.4;
+     }
+      
 
+    .links a:hover {
+      text-decoration: underline;
+    }
 
-
-
-
-
+    .logo {
+      color: #325105;
+      text-decoration: none;
+      font-size: 1.2rem;
+      line-height: 1.4;
+     }
 
 
     .cards {
@@ -105,7 +126,7 @@ body {
     .card h4 {
       margin-top: 0;
       font-size: 1.2rem;
-      color: #68c6ad;
+      color:#c1d005;
       
     }
 
@@ -116,12 +137,18 @@ body {
     }
 
     .card a {
-      color: #0662a9;
+      color: #325105;
       text-decoration: none;
     }
 
     .card a:hover {
       text-decoration: underline;
+    }
+
+    .card img {
+      width: 275px;       
+      height: 400px;      
+      object-fit: cover;  
     }
 
 
@@ -132,11 +159,10 @@ body {
       box-shadow: 0 8px 8px rgba(0,0,0,0.1);
       display: flex;
       
-
     }
 
     .form-contac:hover{ 
-      box-shadow:#68c6ad;
+      box-shadow:#c1d005;
       transform: scale(1.03);
 
     }
@@ -149,7 +175,7 @@ body {
       padding: 10px;
       font-size: 16px;
       font-family: "Comic Relief", system-ui;
-      color: #68c6ad;
+      color: #c1d005;
     }
 
    .form-term{
@@ -174,13 +200,23 @@ body {
 
 
   .form-contac-button:hover {
-    box-shadow: 3px 0px 30px #68c6ad;
-    background-color: #68c6ad;}
+    box-shadow: 3px 0px 30px #c1d005;
+    background-color: #c1d005;}
 
 
 
     @media (max-width: 600px) {
+      
+      form{
+        width: 90%;
+      }
+
+      footer{
+        flex-direction: column;
+      }
       .card {
         width: 90%;
       }
+
+      
     }
