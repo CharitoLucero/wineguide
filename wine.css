@@ -1,10 +1,18 @@
 
-body {
+    body {
       font-family: "Karla", sans-serif;
       margin: 0;
       padding: 0;
-      background: #fffce9;
+      background: #325105;
       color: #333;
+    }
+
+    nav{
+      position: fixed; 
+      top: 0; 
+      width: 100%; 
+      background-color: #325105; 
+      z-index: 1000;
     }
 
     h2 {
@@ -15,9 +23,6 @@ body {
       margin: 0;
       font-weight: bold;
     }
-
-
-
 
     h3{
       text-align: center;
@@ -44,6 +49,8 @@ body {
       outline: none;
     }
 
+    /* Estilos de id */
+
     #footer a {
       cursor: pointer;
       font-size: 14px;
@@ -67,6 +74,7 @@ body {
    }  
 
 
+   /* Estilos de clases */
 
     .banner {
       background-image: url(./imag/banner.jpg);
@@ -77,7 +85,7 @@ body {
     }
 
     .links a{
-      color: #325105;
+      color: #fffce9;
       text-decoration: none;
       font-size: 1.3rem;
       line-height: 1.4;
@@ -89,7 +97,7 @@ body {
     }
 
     .logo {
-      color: #325105;
+      color: #fffce9;
       text-decoration: none;
       font-size: 1.2rem;
       line-height: 1.4;
@@ -158,12 +166,12 @@ body {
       display: flex;
       
     }
-
+/* 
     .form-contac:hover{ 
       box-shadow:#c1d005;
       transform: scale(1.03);
 
-    }
+    } */
 
     .form-contac-imput{
       width: 1200px;
@@ -173,7 +181,6 @@ body {
       padding: 10px;
       font-size: 16px;
       
-      color: #c1d005;
     }
 
    .form-term{
